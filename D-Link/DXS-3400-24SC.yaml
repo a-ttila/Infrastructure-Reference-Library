@@ -104,4 +104,8 @@ module-bays:
   - name: Fan3
     label: Fan Module 3
     position: '3'
+inventory-items:
+  - name: USB-A
+    label: USB 2.0 Type-A Port
+    part_id: USB-A
     
