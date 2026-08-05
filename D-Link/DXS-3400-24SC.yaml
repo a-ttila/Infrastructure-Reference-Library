@@ -62,14 +62,6 @@ interfaces:
     type: 10gbase-x-sfpp
   - name: GigabitEthernet1/0/20
     type: 10gbase-x-sfpp
-  - name: GigabitEthernet1/0/21
-    type: 10gbase-x-sfpp
-  - name: GigabitEthernet1/0/22
-    type: 10gbase-x-sfpp
-  - name: GigabitEthernet1/0/23
-    type: 10gbase-x-sfpp
-  - name: GigabitEthernet1/0/24
-    type: 10gbase-x-sfpp
   - name: GigabitEthernet1/0/21C
     type: 10gbase-t
   - name: GigabitEthernet1/0/21F
@@ -112,3 +104,4 @@ module-bays:
   - name: Fan3
     label: Fan Module 3
     position: '3'
+    
