@@ -1,0 +1,147 @@
+###########################################################################
+
+# Device Type : Corning LANscape 2U 24-Port LC Duplex Fiber Patch Panel
+
+# Vendor      : Corning
+
+# Version     : 1.0
+
+# Created     : 2026-08-10
+
+# Notes       : 2U rack-mounted passive fiber patch panel.
+# 24x LC Duplex ports representing 48 individual optical fibers.
+# Physical fiber numbering is reflected in the port names:
+# LC01-02, LC03-04, ... LC47-48.
+# Internal adapter modules are treated as integral parts of the panel
+# and are not modelled separately.
+
+###########################################################################
+
+manufacturer: Corning
+model: LANscape 2U 24-Port LC Duplex Fiber Patch Panel
+slug: corning-lanscape-2u-24-port-lc-duplex-fiber-patch-panel
+comments: 'Corning LANscape 2U passive fiber patch panel with 24 integrated LC Duplex ports representing 48 optical fibers. Port naming follows the physical fiber numbering convention: LC01-02 through LC47-48.'
+is_full_depth: false
+u_height: 2
+front-ports:
+- name: LC01-02
+  type: lc
+  rear_port: LC01-02
+- name: LC03-04
+  type: lc
+  rear_port: LC03-04
+- name: LC05-06
+  type: lc
+  rear_port: LC05-06
+- name: LC07-08
+  type: lc
+  rear_port: LC07-08
+- name: LC09-10
+  type: lc
+  rear_port: LC09-10
+- name: LC11-12
+  type: lc
+  rear_port: LC11-12
+- name: LC13-14
+  type: lc
+  rear_port: LC13-14
+- name: LC15-16
+  type: lc
+  rear_port: LC15-16
+- name: LC17-18
+  type: lc
+  rear_port: LC17-18
+- name: LC19-20
+  type: lc
+  rear_port: LC19-20
+- name: LC21-22
+  type: lc
+  rear_port: LC21-22
+- name: LC23-24
+  type: lc
+  rear_port: LC23-24
+- name: LC25-26
+  type: lc
+  rear_port: LC25-26
+- name: LC27-28
+  type: lc
+  rear_port: LC27-28
+- name: LC29-30
+  type: lc
+  rear_port: LC29-30
+- name: LC31-32
+  type: lc
+  rear_port: LC31-32
+- name: LC33-34
+  type: lc
+  rear_port: LC33-34
+- name: LC35-36
+  type: lc
+  rear_port: LC35-36
+- name: LC37-38
+  type: lc
+  rear_port: LC37-38
+- name: LC39-40
+  type: lc
+  rear_port: LC39-40
+- name: LC41-42
+  type: lc
+  rear_port: LC41-42
+- name: LC43-44
+  type: lc
+  rear_port: LC43-44
+- name: LC45-46
+  type: lc
+  rear_port: LC45-46
+- name: LC47-48
+  type: lc
+  rear_port: LC47-48
+rear-ports:
+- name: LC01-02
+  type: lc
+- name: LC03-04
+  type: lc
+- name: LC05-06
+  type: lc
+- name: LC07-08
+  type: lc
+- name: LC09-10
+  type: lc
+- name: LC11-12
+  type: lc
+- name: LC13-14
+  type: lc
+- name: LC15-16
+  type: lc
+- name: LC17-18
+  type: lc
+- name: LC19-20
+  type: lc
+- name: LC21-22
+  type: lc
+- name: LC23-24
+  type: lc
+- name: LC25-26
+  type: lc
+- name: LC27-28
+  type: lc
+- name: LC29-30
+  type: lc
+- name: LC31-32
+  type: lc
+- name: LC33-34
+  type: lc
+- name: LC35-36
+  type: lc
+- name: LC37-38
+  type: lc
+- name: LC39-40
+  type: lc
+- name: LC41-42
+  type: lc
+- name: LC43-44
+  type: lc
+- name: LC45-46
+  type: lc
+- name: LC47-48
+  type: lc
