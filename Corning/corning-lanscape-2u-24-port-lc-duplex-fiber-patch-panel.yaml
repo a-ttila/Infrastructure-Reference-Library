@@ -11,7 +11,7 @@
 # Notes       : 2U rack-mounted passive fiber patch panel.
 # 24x SC Duplex ports representing 48 individual optical fibers.
 # Physical fiber numbering is reflected in the port names:
-# LC01-02, LC03-04, ... LC47-48.
+# SC01-02, SC03-04, ... SC47-48.
 # Internal adapter modules are treated as integral parts of the panel
 # and are not modelled separately.
 
@@ -20,7 +20,7 @@
 manufacturer: Corning
 model: LANscape 2U 24-Port SC Duplex Fiber Patch Panel
 slug: corning-lanscape-2u-24-port-sc-duplex-fiber-patch-panel
-comments: 'Corning LANscape 2U passive fiber patch panel with 24 integrated SC Duplex ports representing 48 optical fibers. Port naming follows the physical fiber numbering convention: LC01-02 through LC47-48.'
+comments: 'Corning LANscape 2U passive fiber patch panel with 24 integrated SC Duplex ports representing 48 optical fibers. Port naming follows the physical fiber numbering convention: SC01-02 through SC47-48.'
 is_full_depth: false
 u_height: 2
 front-ports:
