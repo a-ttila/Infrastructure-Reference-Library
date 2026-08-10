@@ -1,4 +1,3 @@
-```yaml
 ###########################################################################
 # Device Type : Corning LANscape 2U 24-Port SC Duplex Fiber Patch Panel
 # Vendor      : Corning
@@ -245,4 +244,3 @@ rear-ports:
   - name: SC47-48
     type: sc
     positions: 1
-```
