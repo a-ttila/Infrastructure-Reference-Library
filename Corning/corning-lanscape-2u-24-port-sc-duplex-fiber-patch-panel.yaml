@@ -21,226 +21,403 @@
 manufacturer: Corning
 model: LANscape 2U 24-Port SC Duplex Fiber Patch Panel
 slug: corning-lanscape-2u-24-port-sc-duplex-fiber-patch-panel
-
-comments: 'Corning LANscape 2U passive fiber patch panel with 24 integrated SC Duplex ports representing 48 optical fibers. Port naming follows the physical fiber numbering convention: SC01-02 through SC47-48. Each front port is mapped 1:1 to the corresponding rear port.'
-
+description: ''
+default_platform: null
+part_number: ''
+u_height: 2.0
 is_full_depth: false
-u_height: 2
-
+subdevice_role: null
+airflow: passive
+weight: null
+weight_unit: null
+comments: 'Corning LANscape 2U passive fiber patch panel with 24 integrated SC Duplex
+  ports representing 48 optical fibers. Port naming follows the physical fiber numbering
+  convention: SC01-02 through SC47-48.'
 front-ports:
-  - name: SC01-02
-    type: sc
-    rear_port: SC01-02
-    rear_port_position: 1
-
-  - name: SC03-04
-    type: sc
-    rear_port: SC03-04
-    rear_port_position: 1
-
-  - name: SC05-06
-    type: sc
-    rear_port: SC05-06
-    rear_port_position: 1
-
-  - name: SC07-08
-    type: sc
-    rear_port: SC07-08
-    rear_port_position: 1
-
-  - name: SC09-10
-    type: sc
-    rear_port: SC09-10
-    rear_port_position: 1
-
-  - name: SC11-12
-    type: sc
-    rear_port: SC11-12
-    rear_port_position: 1
-
-  - name: SC13-14
-    type: sc
-    rear_port: SC13-14
-    rear_port_position: 1
-
-  - name: SC15-16
-    type: sc
-    rear_port: SC15-16
-    rear_port_position: 1
-
-  - name: SC17-18
-    type: sc
-    rear_port: SC17-18
-    rear_port_position: 1
-
-  - name: SC19-20
-    type: sc
-    rear_port: SC19-20
-    rear_port_position: 1
-
-  - name: SC21-22
-    type: sc
-    rear_port: SC21-22
-    rear_port_position: 1
-
-  - name: SC23-24
-    type: sc
-    rear_port: SC23-24
-    rear_port_position: 1
-
-  - name: SC25-26
-    type: sc
-    rear_port: SC25-26
-    rear_port_position: 1
-
-  - name: SC27-28
-    type: sc
-    rear_port: SC27-28
-    rear_port_position: 1
-
-  - name: SC29-30
-    type: sc
-    rear_port: SC29-30
-    rear_port_position: 1
-
-  - name: SC31-32
-    type: sc
-    rear_port: SC31-32
-    rear_port_position: 1
-
-  - name: SC33-34
-    type: sc
-    rear_port: SC33-34
-    rear_port_position: 1
-
-  - name: SC35-36
-    type: sc
-    rear_port: SC35-36
-    rear_port_position: 1
-
-  - name: SC37-38
-    type: sc
-    rear_port: SC37-38
-    rear_port_position: 1
-
-  - name: SC39-40
-    type: sc
-    rear_port: SC39-40
-    rear_port_position: 1
-
-  - name: SC41-42
-    type: sc
-    rear_port: SC41-42
-    rear_port_position: 1
-
-  - name: SC43-44
-    type: sc
-    rear_port: SC43-44
-    rear_port_position: 1
-
-  - name: SC45-46
-    type: sc
-    rear_port: SC45-46
-    rear_port_position: 1
-
-  - name: SC47-48
-    type: sc
-    rear_port: SC47-48
-    rear_port_position: 1
-
+- name: SC01-02
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC03-04
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC05-06
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC07-08
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC09-10
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC11-12
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC13-14
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC15-16
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC17-18
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC19-20
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC21-22
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC23-24
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC25-26
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC27-28
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC29-30
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC31-32
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC33-34
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC35-36
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC37-38
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC39-40
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC41-42
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC43-44
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC45-46
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC47-48
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
 rear-ports:
-  - name: SC01-02
-    type: sc
-    positions: 1
+- name: SC01-02
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC03-04
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC05-06
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC07-08
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC09-10
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC11-12
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC13-14
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC15-16
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC17-18
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC19-20
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC21-22
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC23-24
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC25-26
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC27-28
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC29-30
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC31-32
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC33-34
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC35-36
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC37-38
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC39-40
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC41-42
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC43-44
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC45-46
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC47-48
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+port-mappings:
+- front_port: SC01-02
+  front_port_position: 1
+  rear_port: SC01-02
+  rear_port_position: 1
+- front_port: SC03-04
+  front_port_position: 1
+  rear_port: SC03-04
+  rear_port_position: 1
+- front_port: SC05-06
+  front_port_position: 1
+  rear_port: SC05-06
+  rear_port_position: 1
+- front_port: SC07-08
+  front_port_position: 1
+  rear_port: SC07-08
+  rear_port_position: 1
+- front_port: SC09-10
+  front_port_position: 1
+  rear_port: SC09-10
+  rear_port_position: 1
+- front_port: SC11-12
+  front_port_position: 1
+  rear_port: SC11-12
+  rear_port_position: 1
+- front_port: SC13-14
+  front_port_position: 1
+  rear_port: SC13-14
+  rear_port_position: 1
+- front_port: SC15-16
+  front_port_position: 1
+  rear_port: SC15-16
+  rear_port_position: 1
+- front_port: SC17-18
+  front_port_position: 1
+  rear_port: SC17-18
+  rear_port_position: 1
+- front_port: SC19-20
+  front_port_position: 1
+  rear_port: SC19-20
+  rear_port_position: 1
+- front_port: SC21-22
+  front_port_position: 1
+  rear_port: SC21-22
+  rear_port_position: 1
+- front_port: SC23-24
+  front_port_position: 1
+  rear_port: SC23-24
+  rear_port_position: 1
+- front_port: SC25-26
+  front_port_position: 1
+  rear_port: SC25-26
+  rear_port_position: 1
+- front_port: SC27-28
+  front_port_position: 1
+  rear_port: SC27-28
+  rear_port_position: 1
+- front_port: SC29-30
+  front_port_position: 1
+  rear_port: SC29-30
+  rear_port_position: 1
+- front_port: SC31-32
+  front_port_position: 1
+  rear_port: SC31-32
+  rear_port_position: 1
+- front_port: SC33-34
+  front_port_position: 1
+  rear_port: SC33-34
+  rear_port_position: 1
+- front_port: SC35-36
+  front_port_position: 1
+  rear_port: SC35-36
+  rear_port_position: 1
+- front_port: SC37-38
+  front_port_position: 1
+  rear_port: SC37-38
+  rear_port_position: 1
+- front_port: SC39-40
+  front_port_position: 1
+  rear_port: SC39-40
+  rear_port_position: 1
+- front_port: SC41-42
+  front_port_position: 1
+  rear_port: SC41-42
+  rear_port_position: 1
+- front_port: SC43-44
+  front_port_position: 1
+  rear_port: SC43-44
+  rear_port_position: 1
+- front_port: SC45-46
+  front_port_position: 1
+  rear_port: SC45-46
+  rear_port_position: 1
+- front_port: SC47-48
+  front_port_position: 1
+  rear_port: SC47-48
+  rear_port_position: 1
 
-  - name: SC03-04
-    type: sc
-    positions: 1
-
-  - name: SC05-06
-    type: sc
-    positions: 1
-
-  - name: SC07-08
-    type: sc
-    positions: 1
-
-  - name: SC09-10
-    type: sc
-    positions: 1
-
-  - name: SC11-12
-    type: sc
-    positions: 1
-
-  - name: SC13-14
-    type: sc
-    positions: 1
-
-  - name: SC15-16
-    type: sc
-    positions: 1
-
-  - name: SC17-18
-    type: sc
-    positions: 1
-
-  - name: SC19-20
-    type: sc
-    positions: 1
-
-  - name: SC21-22
-    type: sc
-    positions: 1
-
-  - name: SC23-24
-    type: sc
-    positions: 1
-
-  - name: SC25-26
-    type: sc
-    positions: 1
-
-  - name: SC27-28
-    type: sc
-    positions: 1
-
-  - name: SC29-30
-    type: sc
-    positions: 1
-
-  - name: SC31-32
-    type: sc
-    positions: 1
-
-  - name: SC33-34
-    type: sc
-    positions: 1
-
-  - name: SC35-36
-    type: sc
-    positions: 1
-
-  - name: SC37-38
-    type: sc
-    positions: 1
-
-  - name: SC39-40
-    type: sc
-    positions: 1
-
-  - name: SC41-42
-    type: sc
-    positions: 1
-
-  - name: SC43-44
-    type: sc
-    positions: 1
-
-  - name: SC45-46
-    type: sc
-    positions: 1
-
-  - name: SC47-48
-    type: sc
-    positions: 1
