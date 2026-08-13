@@ -1,0 +1,117 @@
+###########################################################################
+# Device Type : D-Link DGS-3420-28SC
+# Vendor      : D-Link
+# Version     : 1.1
+# Created     : 2026-08-13
+# Notes       : xStack L2+ Managed Gigabit Switch.
+#               20x SFP (1000BASE-X) ports + 4x 10/100/1000BASE-T/SFP
+#               combo ports + 4x 10G SFP+ uplink ports.
+#               Interface naming confirmed against live `show ports`
+#               CLI output: standalone (non-stacked) ports appear as
+#               plain numbers (e.g. "19", "20"); combo ports appear
+#               twice under the same number with "(C)" (copper) and
+#               "(F)" (fiber) suffixes - only one of the two is active
+#               at a time. Fixed internal power supply; optional
+#               external redundant power supply (DPS-500) connects via
+#               a separate power port, not modelled as an internal
+#               hot-swap module bay. Alarm port (2 input / 1 output)
+#               and SD card slot exist on the physical unit but have
+#               no direct NetBox component equivalent; noted in
+#               comments only.
+###########################################################################
+---
+manufacturer: D-Link
+model: DGS-3420-28SC
+slug: d-link-dgs-3420-28sc
+part_number: DGS-3420-28SC
+comments: >
+  [D-Link DGS-3420-28SC](https://www.dlink.com/en/products/dgs-3420-28sc-28-port-xstack-l2-managed-stackable-gigabit-fiber-switch) —
+  28-Port Gigabit SFP L2+ Stackable Managed Switch. End of Sale product
+  (phased out 11/05/2022, last support date 11/05/2027). Physical unit
+  also includes 1x Alarm port (2 input / 1 output, 42VAC or 60VDC) and
+  1x SD Card slot, not modelled as separate components here. Interface
+  names verified against live CLI `show ports` output (standalone mode).
+  If physically stacked, port names in NetBox may need a "1:" (unit)
+  prefix to match actual stacked CLI naming - verify with `show switch`.
+is_full_depth: false
+airflow: front-to-rear
+weight: 4.06
+weight_unit: kg
+u_height: 1
+interfaces:
+  - name: '1'
+    type: 1000base-x-sfp
+  - name: '2'
+    type: 1000base-x-sfp
+  - name: '3'
+    type: 1000base-x-sfp
+  - name: '4'
+    type: 1000base-x-sfp
+  - name: '5'
+    type: 1000base-x-sfp
+  - name: '6'
+    type: 1000base-x-sfp
+  - name: '7'
+    type: 1000base-x-sfp
+  - name: '8'
+    type: 1000base-x-sfp
+  - name: '9'
+    type: 1000base-x-sfp
+  - name: '10'
+    type: 1000base-x-sfp
+  - name: '11'
+    type: 1000base-x-sfp
+  - name: '12'
+    type: 1000base-x-sfp
+  - name: '13'
+    type: 1000base-x-sfp
+  - name: '14'
+    type: 1000base-x-sfp
+  - name: '15'
+    type: 1000base-x-sfp
+  - name: '16'
+    type: 1000base-x-sfp
+  - name: '17'
+    type: 1000base-x-sfp
+  - name: '18'
+    type: 1000base-x-sfp
+  - name: '19'
+    type: 1000base-x-sfp
+  - name: '20'
+    type: 1000base-x-sfp
+  - name: '21 (C)'
+    type: 1000base-t
+  - name: '21 (F)'
+    type: 1000base-x-sfp
+  - name: '22 (C)'
+    type: 1000base-t
+  - name: '22 (F)'
+    type: 1000base-x-sfp
+  - name: '23 (C)'
+    type: 1000base-t
+  - name: '23 (F)'
+    type: 1000base-x-sfp
+  - name: '24 (C)'
+    type: 1000base-t
+  - name: '24 (F)'
+    type: 1000base-x-sfp
+  - name: '25'
+    type: 10gbase-x-sfpp
+  - name: '26'
+    type: 10gbase-x-sfpp
+  - name: '27'
+    type: 10gbase-x-sfpp
+  - name: '28'
+    type: 10gbase-x-sfpp
+  - name: MGMT
+    type: 100base-tx
+    mgmt_only: true
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+inventory-items:
+  - name: SD Card Slot
+    label: SD Card Slot
