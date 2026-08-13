@@ -1,0 +1,230 @@
+###########################################################################
+# Device Type : Corning LANscape 2U 24-Port SC Duplex Fiber Patch Panel
+# Vendor      : Corning
+# Version     : 1.1
+# Created     : 2026-08-10
+#
+# Notes:
+# 1U rack-mounted passive fiber patch panel.
+# 12x SC Duplex ports representing 24 individual optical fibers.
+#
+# Physical fiber numbering is reflected in the port names:
+# SC01-02, SC03-04, ... SC23-24.
+#
+# Each FRONT port is mapped 1:1 to the corresponding REAR port.
+# Every REAR port has one position.
+#
+# Internal adapter modules are treated as integral parts of the panel
+# and are not modelled separately.
+###########################################################################
+
+manufacturer: Corning
+model: LANscape 1U 12-Port SC Duplex Fiber Patch Panel
+slug: corning-lanscape-1u-12-port-sc-duplex-fiber-patch-panel
+description: ''
+default_platform: null
+part_number: ''
+u_height: 1.0
+is_full_depth: false
+subdevice_role: null
+airflow: passive
+weight: null
+weight_unit: null
+comments: 'Corning LANscape 1U passive fiber patch panel with 12 integrated SC Duplex
+  ports representing 24 optical fibers. Port naming follows the physical fiber numbering
+  convention: SC01-02 through SC23-24.'
+front-ports:
+- name: SC01-02
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC03-04
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC05-06
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC07-08
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC09-10
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC11-12
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC13-14
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC15-16
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC17-18
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC19-20
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC21-22
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC23-24
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+rear-ports:
+- name: SC01-02
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC03-04
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC05-06
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC07-08
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC09-10
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC11-12
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC13-14
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC15-16
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC17-18
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC19-20
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC21-22
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+- name: SC23-24
+  type: sc
+  color: ''
+  positions: 1
+  label: ''
+  description: ''
+port-mappings:
+- front_port: SC01-02
+  front_port_position: 1
+  rear_port: SC01-02
+  rear_port_position: 1
+- front_port: SC03-04
+  front_port_position: 1
+  rear_port: SC03-04
+  rear_port_position: 1
+- front_port: SC05-06
+  front_port_position: 1
+  rear_port: SC05-06
+  rear_port_position: 1
+- front_port: SC07-08
+  front_port_position: 1
+  rear_port: SC07-08
+  rear_port_position: 1
+- front_port: SC09-10
+  front_port_position: 1
+  rear_port: SC09-10
+  rear_port_position: 1
+- front_port: SC11-12
+  front_port_position: 1
+  rear_port: SC11-12
+  rear_port_position: 1
+- front_port: SC13-14
+  front_port_position: 1
+  rear_port: SC13-14
+  rear_port_position: 1
+- front_port: SC15-16
+  front_port_position: 1
+  rear_port: SC15-16
+  rear_port_position: 1
+- front_port: SC17-18
+  front_port_position: 1
+  rear_port: SC17-18
+  rear_port_position: 1
+- front_port: SC19-20
+  front_port_position: 1
+  rear_port: SC19-20
+  rear_port_position: 1
+- front_port: SC21-22
+  front_port_position: 1
+  rear_port: SC21-22
+  rear_port_position: 1
+- front_port: SC23-24
+  front_port_position: 1
+  rear_port: SC23-24
+  rear_port_position: 1
