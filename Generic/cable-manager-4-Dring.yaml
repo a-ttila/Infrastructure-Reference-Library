@@ -1,0 +1,16 @@
+manufacturer: Generic
+model: 19" 1U Brush Cable Manager with 4 D-Rings
+slug: generic-19in-1u-cable-manager-4-drings
+part_number: ""
+u_height: 1
+is_full_depth: false
+subdevice_role: null
+airflow: passive
+weight: 0.4
+weight_unit: kg
+comments: >
+  19-inch rack-mountable, 1U height (44mm / 1.75in) horizontal cable
+  manager. Steel panel construction with integrated D-ring cable management rings
+  for routing and supporting horizontal cable runs.
+  Typical depth approximately 88mm (3.46in). Passive device with no
+  active components (no ports, interfaces, or power supplies).
