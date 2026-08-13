@@ -1,0 +1,15 @@
+manufacturer: Tritón
+model: RMA-27-A86-AAX-A1
+slug: triton-rma-27-a86-aax-a1
+form_factor: 4-post-cabinet
+width: 19
+u_height: 27
+starting_unit: 1
+outer_width: 800
+outer_height: 1300
+outer_depth: 600
+outer_unit: mm
+weight: 54
+max_weight: 400
+weight_unit: kg
+desc_units: false
