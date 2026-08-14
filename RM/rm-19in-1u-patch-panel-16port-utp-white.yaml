@@ -1,0 +1,187 @@
+###########################################################################
+# Device Type : R&M 19" 1U Patch Panel 16-Port UTP (white, empty)
+# Vendor      : R&M (Reichle & De-Massari)
+# Version     : 1.0 (DRAFT - legacy 20+ year old unit, exact historical
+#               part number/datasheet not confirmed)
+# Created     : 2026-08-14
+# Notes       : 16-port RJ45 UTP patch panel, white, front ports
+#               arranged in a 2x8 grid. Closest current R&M catalogue
+#               equivalent identified as R305890 ("19" 1U Patch Panel
+#               16-Port/u, empty" - unshielded), but this is a legacy
+#               unit and the exact original part number/colour code
+#               could not be confirmed online - weight and depth are
+#               ESTIMATES based on comparable 19"/1U 16-port UTP patch
+#               panels and should be verified against the physical
+#               nameplate if possible. Modelled as fixed RJ45 (8p8c)
+#               front-ports, with 110-punch rear-ports (LSA/punch-down
+#               style termination, consistent with R&M's insulation
+#               displacement connection modules), 1:1 mapped, so Cable
+#               objects can be terminated on both sides and NetBox's
+#               cable trace feature works end-to-end.
+###########################################################################
+---
+manufacturer: R&M
+model: R&M 19" 1U Patch Panel 16-Port UTP White
+slug: rm-19in-1u-patch-panel-16port-utp-white
+part_number: ""
+u_height: 1
+is_full_depth: false
+is_powered: false
+airflow: passive
+weight: 0.45
+weight_unit: kg
+comments: >
+  R&M (Reichle & De-Massari) 19", 1U, 16-port UTP RJ45 patch panel,
+  white, front ports arranged in a 2x8 grid. Legacy unit (20+ years
+  old) - closest current R&M catalogue reference: R305890 ("19" 1U
+  Patch Panel 16-Port/u, empty", unshielded). NOTE: part_number left
+  blank pending confirmation of the exact original SKU from the
+  physical nameplate.
+
+front-ports:
+  - name: '01'
+    label: '01'
+    type: 8p8c
+    rear_port: '01'
+    rear_port_position: 1
+  - name: '02'
+    label: '02'
+    type: 8p8c
+    rear_port: '02'
+    rear_port_position: 1
+  - name: '03'
+    label: '03'
+    type: 8p8c
+    rear_port: '03'
+    rear_port_position: 1
+  - name: '04'
+    label: '04'
+    type: 8p8c
+    rear_port: '04'
+    rear_port_position: 1
+  - name: '05'
+    label: '05'
+    type: 8p8c
+    rear_port: '05'
+    rear_port_position: 1
+  - name: '06'
+    label: '06'
+    type: 8p8c
+    rear_port: '06'
+    rear_port_position: 1
+  - name: '07'
+    label: '07'
+    type: 8p8c
+    rear_port: '07'
+    rear_port_position: 1
+  - name: '08'
+    label: '08'
+    type: 8p8c
+    rear_port: '08'
+    rear_port_position: 1
+  - name: '09'
+    label: '09'
+    type: 8p8c
+    rear_port: '09'
+    rear_port_position: 1
+  - name: '10'
+    label: '10'
+    type: 8p8c
+    rear_port: '10'
+    rear_port_position: 1
+  - name: '11'
+    label: '11'
+    type: 8p8c
+    rear_port: '11'
+    rear_port_position: 1
+  - name: '12'
+    label: '12'
+    type: 8p8c
+    rear_port: '12'
+    rear_port_position: 1
+  - name: '13'
+    label: '13'
+    type: 8p8c
+    rear_port: '13'
+    rear_port_position: 1
+  - name: '14'
+    label: '14'
+    type: 8p8c
+    rear_port: '14'
+    rear_port_position: 1
+  - name: '15'
+    label: '15'
+    type: 8p8c
+    rear_port: '15'
+    rear_port_position: 1
+  - name: '16'
+    label: '16'
+    type: 8p8c
+    rear_port: '16'
+    rear_port_position: 1
+
+rear-ports:
+  - name: '01'
+    label: '01'
+    type: 110-punch
+    positions: 1
+  - name: '02'
+    label: '02'
+    type: 110-punch
+    positions: 1
+  - name: '03'
+    label: '03'
+    type: 110-punch
+    positions: 1
+  - name: '04'
+    label: '04'
+    type: 110-punch
+    positions: 1
+  - name: '05'
+    label: '05'
+    type: 110-punch
+    positions: 1
+  - name: '06'
+    label: '06'
+    type: 110-punch
+    positions: 1
+  - name: '07'
+    label: '07'
+    type: 110-punch
+    positions: 1
+  - name: '08'
+    label: '08'
+    type: 110-punch
+    positions: 1
+  - name: '09'
+    label: '09'
+    type: 110-punch
+    positions: 1
+  - name: '10'
+    label: '10'
+    type: 110-punch
+    positions: 1
+  - name: '11'
+    label: '11'
+    type: 110-punch
+    positions: 1
+  - name: '12'
+    label: '12'
+    type: 110-punch
+    positions: 1
+  - name: '13'
+    label: '13'
+    type: 110-punch
+    positions: 1
+  - name: '14'
+    label: '14'
+    type: 110-punch
+    positions: 1
+  - name: '15'
+    label: '15'
+    type: 110-punch
+    positions: 1
+  - name: '16'
+    label: '16'
+    type: 110-punch
+    positions: 1
