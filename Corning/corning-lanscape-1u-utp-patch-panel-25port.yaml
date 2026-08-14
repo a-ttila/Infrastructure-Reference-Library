@@ -1,0 +1,265 @@
+###########################################################################
+# Device Type : Corning LANScape UTP Patch Panel 19" 1U 25-Port
+# Vendor      : Corning
+# Version     : 1.0 (DRAFT - no official datasheet located)
+# Created     : 2026-08-14
+# Notes       : 25-port RJ45 UTP patch panel, "LANScape" branded, front
+#               ports arranged in a 5x5 grid. No official Corning
+#               datasheet or exact part number could be located online
+#               for this specific 25-port configuration - dimensions
+#               and weight below are ESTIMATES based on comparable
+#               19"/1U Corning/industry-standard UTP patch panels and
+#               should be verified/corrected against the physical
+#               nameplate if possible. Modelled as fixed RJ45 (8p8c)
+#               front-ports, with 110-punch rear-ports (LSA/punch-down
+#               termination), 1:1 mapped, so Cable objects can be
+#               terminated on both sides and NetBox's cable trace
+#               feature works end-to-end.
+###########################################################################
+---
+manufacturer: Corning
+model: LANScape UTP Patch Panel 19" 1U 25-Port
+slug: corning-lanscape-utp-patch-panel-25port
+part_number: ""
+u_height: 1
+is_full_depth: false
+is_powered: false
+airflow: passive
+weight: 0.6
+weight_unit: kg
+comments: >
+  Corning LANScape branded 19", 1U, 25-port UTP RJ45 patch panel. Front
+  ports arranged in a 5x5 grid. NOTE: no official Corning datasheet or
+  part number was found for this exact configuration - part_number,
+  weight, and dimensions are estimates pending confirmation from the
+  physical nameplate.
+
+front-ports:
+  - name: '01'
+    label: '01'
+    type: 8p8c
+    rear_port: '01'
+    rear_port_position: 1
+  - name: '02'
+    label: '02'
+    type: 8p8c
+    rear_port: '02'
+    rear_port_position: 1
+  - name: '03'
+    label: '03'
+    type: 8p8c
+    rear_port: '03'
+    rear_port_position: 1
+  - name: '04'
+    label: '04'
+    type: 8p8c
+    rear_port: '04'
+    rear_port_position: 1
+  - name: '05'
+    label: '05'
+    type: 8p8c
+    rear_port: '05'
+    rear_port_position: 1
+  - name: '06'
+    label: '06'
+    type: 8p8c
+    rear_port: '06'
+    rear_port_position: 1
+  - name: '07'
+    label: '07'
+    type: 8p8c
+    rear_port: '07'
+    rear_port_position: 1
+  - name: '08'
+    label: '08'
+    type: 8p8c
+    rear_port: '08'
+    rear_port_position: 1
+  - name: '09'
+    label: '09'
+    type: 8p8c
+    rear_port: '09'
+    rear_port_position: 1
+  - name: '10'
+    label: '10'
+    type: 8p8c
+    rear_port: '10'
+    rear_port_position: 1
+  - name: '11'
+    label: '11'
+    type: 8p8c
+    rear_port: '11'
+    rear_port_position: 1
+  - name: '12'
+    label: '12'
+    type: 8p8c
+    rear_port: '12'
+    rear_port_position: 1
+  - name: '13'
+    label: '13'
+    type: 8p8c
+    rear_port: '13'
+    rear_port_position: 1
+  - name: '14'
+    label: '14'
+    type: 8p8c
+    rear_port: '14'
+    rear_port_position: 1
+  - name: '15'
+    label: '15'
+    type: 8p8c
+    rear_port: '15'
+    rear_port_position: 1
+  - name: '16'
+    label: '16'
+    type: 8p8c
+    rear_port: '16'
+    rear_port_position: 1
+  - name: '17'
+    label: '17'
+    type: 8p8c
+    rear_port: '17'
+    rear_port_position: 1
+  - name: '18'
+    label: '18'
+    type: 8p8c
+    rear_port: '18'
+    rear_port_position: 1
+  - name: '19'
+    label: '19'
+    type: 8p8c
+    rear_port: '19'
+    rear_port_position: 1
+  - name: '20'
+    label: '20'
+    type: 8p8c
+    rear_port: '20'
+    rear_port_position: 1
+  - name: '21'
+    label: '21'
+    type: 8p8c
+    rear_port: '21'
+    rear_port_position: 1
+  - name: '22'
+    label: '22'
+    type: 8p8c
+    rear_port: '22'
+    rear_port_position: 1
+  - name: '23'
+    label: '23'
+    type: 8p8c
+    rear_port: '23'
+    rear_port_position: 1
+  - name: '24'
+    label: '24'
+    type: 8p8c
+    rear_port: '24'
+    rear_port_position: 1
+  - name: '25'
+    label: '25'
+    type: 8p8c
+    rear_port: '25'
+    rear_port_position: 1
+
+rear-ports:
+  - name: '01'
+    label: '01'
+    type: 110-punch
+    positions: 1
+  - name: '02'
+    label: '02'
+    type: 110-punch
+    positions: 1
+  - name: '03'
+    label: '03'
+    type: 110-punch
+    positions: 1
+  - name: '04'
+    label: '04'
+    type: 110-punch
+    positions: 1
+  - name: '05'
+    label: '05'
+    type: 110-punch
+    positions: 1
+  - name: '06'
+    label: '06'
+    type: 110-punch
+    positions: 1
+  - name: '07'
+    label: '07'
+    type: 110-punch
+    positions: 1
+  - name: '08'
+    label: '08'
+    type: 110-punch
+    positions: 1
+  - name: '09'
+    label: '09'
+    type: 110-punch
+    positions: 1
+  - name: '10'
+    label: '10'
+    type: 110-punch
+    positions: 1
+  - name: '11'
+    label: '11'
+    type: 110-punch
+    positions: 1
+  - name: '12'
+    label: '12'
+    type: 110-punch
+    positions: 1
+  - name: '13'
+    label: '13'
+    type: 110-punch
+    positions: 1
+  - name: '14'
+    label: '14'
+    type: 110-punch
+    positions: 1
+  - name: '15'
+    label: '15'
+    type: 110-punch
+    positions: 1
+  - name: '16'
+    label: '16'
+    type: 110-punch
+    positions: 1
+  - name: '17'
+    label: '17'
+    type: 110-punch
+    positions: 1
+  - name: '18'
+    label: '18'
+    type: 110-punch
+    positions: 1
+  - name: '19'
+    label: '19'
+    type: 110-punch
+    positions: 1
+  - name: '20'
+    label: '20'
+    type: 110-punch
+    positions: 1
+  - name: '21'
+    label: '21'
+    type: 110-punch
+    positions: 1
+  - name: '22'
+    label: '22'
+    type: 110-punch
+    positions: 1
+  - name: '23'
+    label: '23'
+    type: 110-punch
+    positions: 1
+  - name: '24'
+    label: '24'
+    type: 110-punch
+    positions: 1
+  - name: '25'
+    label: '25'
+    type: 110-punch
+    positions: 1
+    
