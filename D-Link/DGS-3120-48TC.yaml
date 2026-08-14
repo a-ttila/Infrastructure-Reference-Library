@@ -1,0 +1,170 @@
+###########################################################################
+# Device Type : D-Link DGS-3120-48TC
+# Vendor      : D-Link
+# Version     : 1.2
+# Created     : 2026-08-14
+# Notes       : xStack L2+ Managed Stackable Gigabit Switch.
+#               44x 10/100/1000BASE-T ports + 4x 10/100/1000BASE-T/SFP
+#               combo ports + 2x dedicated physical stacking ports.
+#               Combo interfaces are modelled as separate Copper/Fiber
+#               connectors (only one connector may be active at a time).
+#               Interface naming confirmed against live `show ports`
+#               CLI output: ports are prefixed with the stack unit
+#               number (e.g. "1:45 (C)", "1:45 (F)") - modelled using
+#               the {vc_position} template variable so names resolve
+#               correctly for any stack position.
+#               Stacking ports are proprietary connectors (used only
+#               with DEM-CB50/CB100/CB300 stacking cables, up to 40Gbps
+#               full-duplex, max. 6 units per stack) - modelled as
+#               "other" type interfaces since no standard NetBox
+#               interface type applies. Confirmed via live CLI that
+#               these ports do NOT appear in `show ports` output (they
+#               sit outside the switching fabric's normal port list),
+#               so no {vc_position} prefix is applied to their names.
+#               No separate out-of-band MGMT port on this model (unlike
+#               DGS-3420 series) - only a console port is present.
+#               Fixed internal power supply; optional external
+#               redundant power supply (DPS-500 / DPS-500DC) connects
+#               via a separate power port, not modelled as an internal
+#               hot-swap module bay. SD card slot exists on the
+#               physical unit but has no direct NetBox interface/port
+#               equivalent; modelled as an inventory item.
+###########################################################################
+---
+manufacturer: D-Link
+model: DGS-3120-48TC
+slug: d-link-dgs-3120-48tc
+part_number: DGS-3120-48TC
+comments: >
+  [D-Link DGS-3120-48TC](https://www.dlink.com/en/products/dgs-3120-48tc-xstack-l3-managed-gigabit-switch) —
+  48-Port Gigabit L2+ Stackable Managed Switch (xStack Series). Supports
+  physical stacking up to 6 units (288 Gigabit ports, 40Gbps full-duplex
+  stacking bandwidth) via 2 dedicated stacking ports, and virtual
+  stacking (D-Link Single IP Management) up to 32 units. Optional
+  external Redundant Power Supply: DPS-500 (140W) or DPS-500DC.
+is_full_depth: false
+airflow: front-to-rear
+weight: 4.537
+weight_unit: kg
+u_height: 1
+interfaces:
+  - name: '{vc_position}:1'
+    type: 1000base-t
+  - name: '{vc_position}:2'
+    type: 1000base-t
+  - name: '{vc_position}:3'
+    type: 1000base-t
+  - name: '{vc_position}:4'
+    type: 1000base-t
+  - name: '{vc_position}:5'
+    type: 1000base-t
+  - name: '{vc_position}:6'
+    type: 1000base-t
+  - name: '{vc_position}:7'
+    type: 1000base-t
+  - name: '{vc_position}:8'
+    type: 1000base-t
+  - name: '{vc_position}:9'
+    type: 1000base-t
+  - name: '{vc_position}:10'
+    type: 1000base-t
+  - name: '{vc_position}:11'
+    type: 1000base-t
+  - name: '{vc_position}:12'
+    type: 1000base-t
+  - name: '{vc_position}:13'
+    type: 1000base-t
+  - name: '{vc_position}:14'
+    type: 1000base-t
+  - name: '{vc_position}:15'
+    type: 1000base-t
+  - name: '{vc_position}:16'
+    type: 1000base-t
+  - name: '{vc_position}:17'
+    type: 1000base-t
+  - name: '{vc_position}:18'
+    type: 1000base-t
+  - name: '{vc_position}:19'
+    type: 1000base-t
+  - name: '{vc_position}:20'
+    type: 1000base-t
+  - name: '{vc_position}:21'
+    type: 1000base-t
+  - name: '{vc_position}:22'
+    type: 1000base-t
+  - name: '{vc_position}:23'
+    type: 1000base-t
+  - name: '{vc_position}:24'
+    type: 1000base-t
+  - name: '{vc_position}:25'
+    type: 1000base-t
+  - name: '{vc_position}:26'
+    type: 1000base-t
+  - name: '{vc_position}:27'
+    type: 1000base-t
+  - name: '{vc_position}:28'
+    type: 1000base-t
+  - name: '{vc_position}:29'
+    type: 1000base-t
+  - name: '{vc_position}:30'
+    type: 1000base-t
+  - name: '{vc_position}:31'
+    type: 1000base-t
+  - name: '{vc_position}:32'
+    type: 1000base-t
+  - name: '{vc_position}:33'
+    type: 1000base-t
+  - name: '{vc_position}:34'
+    type: 1000base-t
+  - name: '{vc_position}:35'
+    type: 1000base-t
+  - name: '{vc_position}:36'
+    type: 1000base-t
+  - name: '{vc_position}:37'
+    type: 1000base-t
+  - name: '{vc_position}:38'
+    type: 1000base-t
+  - name: '{vc_position}:39'
+    type: 1000base-t
+  - name: '{vc_position}:40'
+    type: 1000base-t
+  - name: '{vc_position}:41'
+    type: 1000base-t
+  - name: '{vc_position}:42'
+    type: 1000base-t
+  - name: '{vc_position}:43'
+    type: 1000base-t
+  - name: '{vc_position}:44'
+    type: 1000base-t
+  - name: '{vc_position}:45 (C)'
+    type: 1000base-t
+  - name: '{vc_position}:45 (F)'
+    type: 1000base-x-sfp
+  - name: '{vc_position}:46 (C)'
+    type: 1000base-t
+  - name: '{vc_position}:46 (F)'
+    type: 1000base-x-sfp
+  - name: '{vc_position}:47 (C)'
+    type: 1000base-t
+  - name: '{vc_position}:47 (F)'
+    type: 1000base-x-sfp
+  - name: '{vc_position}:48 (C)'
+    type: 1000base-t
+  - name: '{vc_position}:48 (F)'
+    type: 1000base-x-sfp
+  - name: Stack1
+    type: other
+    label: Stacking Port 1
+  - name: Stack2
+    type: other
+    label: Stacking Port 2
+console-ports:
+  - name: Console
+    type: rj-45
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+inventory-items:
+  - name: SD Card Slot
+    label: SD Card Slot
+    
