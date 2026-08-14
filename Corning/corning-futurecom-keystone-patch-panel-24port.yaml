@@ -1,0 +1,253 @@
+###########################################################################
+# Device Type : Corning FutureCom Keystone Patch Panel 19" 1U 24-Port
+# Vendor      : Corning
+# Version     : 3.0
+# Created     : 2026-08-14
+# Notes       : Unloaded 19", 1U, 24-port Keystone patch panel.
+#               Modelled as fixed RJ45 (8p8c) front-ports, with
+#               110-punch rear-ports representing the punch-down
+#               (LSA) termination on the back of each Keystone jack,
+#               1:1 mapped, so Cable objects can be terminated on both
+#               sides and NetBox's cable trace feature works
+#               end-to-end. Conductive front with integrated
+#               earthing/grounding points, plus two standardised
+#               grounding lashes (left and right, rear of panel).
+#               Passive device with no active components.
+###########################################################################
+---
+manufacturer: Corning
+model: FutureCom Keystone Patch Panel 19" 1U 24-Port
+slug: corning-futurecom-keystone-patch-panel-24port
+part_number: CAXXSV-02408-C001
+u_height: 1
+is_full_depth: false
+is_powered: false
+airflow: passive
+weight: 0.57
+weight_unit: kg
+comments: >
+  Corning FutureCom Keystone Patch Panel, 19", 1U, for 24 Keystone jacks,
+  with integral cable strain relief, grounding option (two standardised
+  grounding lashes, left and right), black. Datasheet:
+  https://objects.eanixter.com/PD372392.PDF
+
+front-ports:
+  - name: '01'
+    label: '01'
+    type: 8p8c
+    rear_port: '01'
+    rear_port_position: 1
+  - name: '02'
+    label: '02'
+    type: 8p8c
+    rear_port: '02'
+    rear_port_position: 1
+  - name: '03'
+    label: '03'
+    type: 8p8c
+    rear_port: '03'
+    rear_port_position: 1
+  - name: '04'
+    label: '04'
+    type: 8p8c
+    rear_port: '04'
+    rear_port_position: 1
+  - name: '05'
+    label: '05'
+    type: 8p8c
+    rear_port: '05'
+    rear_port_position: 1
+  - name: '06'
+    label: '06'
+    type: 8p8c
+    rear_port: '06'
+    rear_port_position: 1
+  - name: '07'
+    label: '07'
+    type: 8p8c
+    rear_port: '07'
+    rear_port_position: 1
+  - name: '08'
+    label: '08'
+    type: 8p8c
+    rear_port: '08'
+    rear_port_position: 1
+  - name: '09'
+    label: '09'
+    type: 8p8c
+    rear_port: '09'
+    rear_port_position: 1
+  - name: '10'
+    label: '10'
+    type: 8p8c
+    rear_port: '10'
+    rear_port_position: 1
+  - name: '11'
+    label: '11'
+    type: 8p8c
+    rear_port: '11'
+    rear_port_position: 1
+  - name: '12'
+    label: '12'
+    type: 8p8c
+    rear_port: '12'
+    rear_port_position: 1
+  - name: '13'
+    label: '13'
+    type: 8p8c
+    rear_port: '13'
+    rear_port_position: 1
+  - name: '14'
+    label: '14'
+    type: 8p8c
+    rear_port: '14'
+    rear_port_position: 1
+  - name: '15'
+    label: '15'
+    type: 8p8c
+    rear_port: '15'
+    rear_port_position: 1
+  - name: '16'
+    label: '16'
+    type: 8p8c
+    rear_port: '16'
+    rear_port_position: 1
+  - name: '17'
+    label: '17'
+    type: 8p8c
+    rear_port: '17'
+    rear_port_position: 1
+  - name: '18'
+    label: '18'
+    type: 8p8c
+    rear_port: '18'
+    rear_port_position: 1
+  - name: '19'
+    label: '19'
+    type: 8p8c
+    rear_port: '19'
+    rear_port_position: 1
+  - name: '20'
+    label: '20'
+    type: 8p8c
+    rear_port: '20'
+    rear_port_position: 1
+  - name: '21'
+    label: '21'
+    type: 8p8c
+    rear_port: '21'
+    rear_port_position: 1
+  - name: '22'
+    label: '22'
+    type: 8p8c
+    rear_port: '22'
+    rear_port_position: 1
+  - name: '23'
+    label: '23'
+    type: 8p8c
+    rear_port: '23'
+    rear_port_position: 1
+  - name: '24'
+    label: '24'
+    type: 8p8c
+    rear_port: '24'
+    rear_port_position: 1
+
+rear-ports:
+  - name: '01'
+    label: '01'
+    type: 110-punch
+    positions: 1
+  - name: '02'
+    label: '02'
+    type: 110-punch
+    positions: 1
+  - name: '03'
+    label: '03'
+    type: 110-punch
+    positions: 1
+  - name: '04'
+    label: '04'
+    type: 110-punch
+    positions: 1
+  - name: '05'
+    label: '05'
+    type: 110-punch
+    positions: 1
+  - name: '06'
+    label: '06'
+    type: 110-punch
+    positions: 1
+  - name: '07'
+    label: '07'
+    type: 110-punch
+    positions: 1
+  - name: '08'
+    label: '08'
+    type: 110-punch
+    positions: 1
+  - name: '09'
+    label: '09'
+    type: 110-punch
+    positions: 1
+  - name: '10'
+    label: '10'
+    type: 110-punch
+    positions: 1
+  - name: '11'
+    label: '11'
+    type: 110-punch
+    positions: 1
+  - name: '12'
+    label: '12'
+    type: 110-punch
+    positions: 1
+  - name: '13'
+    label: '13'
+    type: 110-punch
+    positions: 1
+  - name: '14'
+    label: '14'
+    type: 110-punch
+    positions: 1
+  - name: '15'
+    label: '15'
+    type: 110-punch
+    positions: 1
+  - name: '16'
+    label: '16'
+    type: 110-punch
+    positions: 1
+  - name: '17'
+    label: '17'
+    type: 110-punch
+    positions: 1
+  - name: '18'
+    label: '18'
+    type: 110-punch
+    positions: 1
+  - name: '19'
+    label: '19'
+    type: 110-punch
+    positions: 1
+  - name: '20'
+    label: '20'
+    type: 110-punch
+    positions: 1
+  - name: '21'
+    label: '21'
+    type: 110-punch
+    positions: 1
+  - name: '22'
+    label: '22'
+    type: 110-punch
+    positions: 1
+  - name: '23'
+    label: '23'
+    type: 110-punch
+    positions: 1
+  - name: '24'
+    label: '24'
+    type: 110-punch
+    positions: 1
+    
