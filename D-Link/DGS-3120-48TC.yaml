@@ -44,7 +44,7 @@ comments: >
   external Redundant Power Supply: DPS-500 (140W) or DPS-500DC.
 is_full_depth: false
 airflow: front-to-rear
-weight: 4.537
+weight: 4.54
 weight_unit: kg
 u_height: 1
 interfaces:
