@@ -1,0 +1,41 @@
+###########################################################################
+# Rack Type  : Generic 19" 12U Wall-Mount Cabinet, Glass Door, Grey
+# Vendor      : Generic
+# Version     : 1.0
+# Created     : 2026-08-14
+# Notes       : Legacy wall-mount network cabinet found labelled
+#               "Siemens" in the attic - manufacturer branding not
+#               commercially significant/traceable (likely a rebranded
+#               OEM product, common practice historically), so
+#               modelled under a Generic manufacturer using only the
+#               confirmed physical characteristics: 19", 12U, wall-
+#               mount, glass front door, grey. Outer dimensions and
+#               weight are ESTIMATES based on typical 12U wall-mount
+#               cabinets of this era/class - adjust if exact
+#               measurements are taken from the physical unit.
+###########################################################################
+---
+manufacturer: Generic
+model: 19" 12U Wall-Mount Cabinet, Glass Door, Grey
+slug: generic-19in-12u-wall-cabinet-glass-grey
+form_factor: wall-cabinet
+width: 19
+u_height: 12
+starting_unit: 1
+desc_units: false
+outer_width: 600
+outer_depth: 450
+outer_unit: mm
+mounting_depth: 400
+weight: 25
+max_weight: 60
+weight_unit: kg
+comments: >
+  Legacy 19" wall-mount network cabinet, 12U, grey, with front-hinged
+  glass door. Found unlabelled/branding-only ("Siemens") in building
+  attic - actual manufacturer not identifiable/relevant (likely a
+  rebranded OEM cabinet, as was common practice historically).
+  Dimensions and weight capacity are estimates based on comparable
+  12U wall-mount cabinets - verify against the physical unit if exact
+  figures are needed (e.g. for wall-mounting load calculations).
+  
