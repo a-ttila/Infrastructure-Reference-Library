@@ -1,0 +1,83 @@
+---
+manufacturer: AMP NETCONNECT
+model: AMP NETCONNECT LC Simplex Adapter Panel (12-Port)
+part_number: ''
+comments: >-
+  Pattintható (snap-in) optikai adapter panel a 4-bay keretbe, 12x LC simplex
+  csatlakozóval (OM3/OM4 aqua színkódolás). Passzív átvezető panel: minden
+  front port 1:1 arányban van összekötve a hozzá tartozó rear porttal
+  (patch kábel oldal <-> backbone/gerinckábel oldal).
+front-ports:
+  - name: LC1
+    type: lc
+    rear_port: RC1
+    rear_port_position: 1
+  - name: LC2
+    type: lc
+    rear_port: RC2
+    rear_port_position: 1
+  - name: LC3
+    type: lc
+    rear_port: RC3
+    rear_port_position: 1
+  - name: LC4
+    type: lc
+    rear_port: RC4
+    rear_port_position: 1
+  - name: LC5
+    type: lc
+    rear_port: RC5
+    rear_port_position: 1
+  - name: LC6
+    type: lc
+    rear_port: RC6
+    rear_port_position: 1
+  - name: LC7
+    type: lc
+    rear_port: RC7
+    rear_port_position: 1
+  - name: LC8
+    type: lc
+    rear_port: RC8
+    rear_port_position: 1
+  - name: LC9
+    type: lc
+    rear_port: RC9
+    rear_port_position: 1
+  - name: LC10
+    type: lc
+    rear_port: RC10
+    rear_port_position: 1
+  - name: LC11
+    type: lc
+    rear_port: RC11
+    rear_port_position: 1
+  - name: LC12
+    type: lc
+    rear_port: RC12
+    rear_port_position: 1
+rear-ports:
+  - name: RC1
+    type: lc
+  - name: RC2
+    type: lc
+  - name: RC3
+    type: lc
+  - name: RC4
+    type: lc
+  - name: RC5
+    type: lc
+  - name: RC6
+    type: lc
+  - name: RC7
+    type: lc
+  - name: RC8
+    type: lc
+  - name: RC9
+    type: lc
+  - name: RC10
+    type: lc
+  - name: RC11
+    type: lc
+  - name: RC12
+    type: lc
